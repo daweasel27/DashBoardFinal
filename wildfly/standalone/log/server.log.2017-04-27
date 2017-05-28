@@ -1,0 +1,1019 @@
+2017-04-27 10:51:19,085 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-04-27 10:51:26,238 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-04-27 10:51:26,920 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-04-27 10:51:26,928 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,camaro
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_121-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final
+	jboss.host.name = camaro
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = camaro
+	jboss.qualified.host.name = camaro
+	jboss.server.base.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = camaro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-72-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = PT
+	user.dir = /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/bin
+	user.home = /home/rui
+	user.language = en
+	user.language.format = pt
+	user.name = rui
+	user.timezone = Europe/Lisbon
+2017-04-27 10:51:26,929 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,camaro -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-04-27 10:51:41,064 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 10:51:41,114 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-27 10:51:41,248 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2017-04-27 10:51:41,294 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2017-04-27 10:51:41,346 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-27 10:51:41,387 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-27 10:51:41,408 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-27 10:51:41,627 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-27 10:51:41,661 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-27 10:51:41,670 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-27 10:51:41,675 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-04-27 10:51:41,672 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-27 10:51:41,695 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-04-27 10:51:41,761 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-04-27 10:51:42,423 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-04-27 10:51:43,895 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-27 10:51:44,468 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-27 10:51:44,476 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-27 10:51:45,677 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2017-04-27 10:51:45,679 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-04-27 10:51:46,403 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2017-04-27 10:51:46,528 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-04-27 10:51:46,528 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-04-27 10:51:47,121 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2017-04-27 10:51:47,122 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-27 10:51:49,046 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-27 10:51:49,121 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-04-27 10:51:49,337 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/deployments
+2017-04-27 10:51:49,530 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 10:51:49,708 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2017-04-27 10:51:49,808 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 10:51:50,253 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-04-27 10:51:50,394 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0075: AIO wasn't located on this platform, it will fall back to using pure Java NIO. Your platform is Linux, install LibAIO to enable the AIO journal and achieve optimal performance.
+2017-04-27 10:51:52,422 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:52,423 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:52,424 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:52,425 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:52,428 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:52,429 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 10:51:53,072 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data/activemq/journal,bindingsDirectory=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data/activemq/bindings,largeMessagesDirectory=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data/activemq/largemessages,pagingDirectory=/home/rui/Desktop/menito/ES/wildfly-10.1.0.Final/standalone/data/activemq/paging)
+2017-04-27 10:51:53,845 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2017-04-27 10:51:54,933 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-27 10:51:55,184 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2017-04-27 10:51:55,384 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-27 10:51:55,410 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2017-04-27 10:51:56,384 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-04-27 10:51:58,941 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 10:51:58,941 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 10:51:58,941 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 10:51:58,941 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 10:51:59,072 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-04-27 10:51:59,691 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-27 10:51:59,691 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=dcda0024-25a7-11e7-a1e4-bdff859782b1] 
+2017-04-27 10:51:59,803 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-27 10:51:59,904 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-27 10:51:59,939 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 67) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-27 10:51:59,940 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 72) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-27 10:52:01,606 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-27 10:52:02,187 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-6) Resource adaptor started
+2017-04-27 10:52:02,188 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-27 10:52:02,280 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-5) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-27 10:52:02,281 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-27 10:52:04,891 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 10:52:05,800 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 10:52:06,613 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 10:52:07,652 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 77) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 10:52:08,675 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 10:52:11,641 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 77) Running on PrimeFaces 6.0
+2017-04-27 10:52:11,916 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 10:52:12,200 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 10:52:12,742 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-27 10:52:12,743 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-27 10:52:12,743 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 58486ms - Started 677 of 926 services (419 services are lazy, passive or on-demand)
+2017-04-27 10:52:17,093 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 10:52:17,336 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 290ms
+2017-04-27 10:52:17,519 WARN  [org.jboss.as.controller] (management-handler-thread - 3) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 10:52:17,521 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 10:52:17,544 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 10:52:22,739 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 10:52:24,975 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment Dashboard-1.0.war
+2017-04-27 10:52:28,088 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2017-04-27 10:52:30,357 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.5 (Final)
+2017-04-27 10:52:30,386 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 10:52:33,531 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 10:52:33,642 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 24) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 10:52:34,581 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 24) Running on PrimeFaces 6.0
+2017-04-27 10:52:34,626 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 24) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 10:52:34,648 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 10:52:35,533 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 10:53:59,234 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 17:56:21,525 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-27 17:56:21,524 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-04-27 17:56:21,542 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-27 17:56:21,570 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-27 17:56:21,593 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-04-27 17:56:21,609 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-27 17:56:21,644 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-04-27 17:56:21,646 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-04-27 17:56:21,647 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-04-27 17:56:21,657 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-04-27 17:56:21,674 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-27 17:56:21,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-04-27 17:56:21,738 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2017-04-27 17:56:21,752 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-27 17:56:21,940 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2017-04-27 17:56:21,934 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-27 17:56:21,947 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2017-04-27 17:56:22,027 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-04-27 17:56:22,027 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-04-27 17:56:22,061 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Address already in use /127.0.0.1:8080
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:151)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-04-27 17:56:22,300 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 17:56:22,466 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-04-27 17:56:22,481 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/deployments
+2017-04-27 17:56:22,514 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 17:56:22,624 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use /127.0.0.1:9990
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:273)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-04-27 17:56:22,706 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-04-27 17:56:22,750 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:22,751 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:22,757 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.listener.https: org.jboss.msc.service.StartException in service jboss.undertow.listener.https: Address already in use /127.0.0.1:8443
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:151)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-04-27 17:56:22,759 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:22,760 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 62) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:22,763 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:22,764 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 17:56:23,672 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use /127.0.0.1:9990"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.serverManagement.controller.management.http"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined,
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.serverManagement.controller.management.http.shutdown"],
+        "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+    }
+}
+2017-04-27 17:56:23,675 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "Dashboard-1.0.war")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined,
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"Dashboard-1.0.war\".PARSE"],
+        "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+    }
+}
+2017-04-27 17:56:23,676 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Address already in use /127.0.0.1:8080"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.listener.default"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2017-04-27 17:56:23,677 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("https-listener" => "https")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.listener.https" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.https: Address already in use /127.0.0.1:8443"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.listener.https"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2017-04-27 17:56:23,679 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined,
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.ws.config"],
+        "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+    }
+}
+2017-04-27 17:56:23,681 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "ejb3")]) - failure description: {
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined,
+    "WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.ejb.default-local-ejb-receiver-service",
+            "jboss.ejb3.ejbClientContext.default",
+            "jboss.ejb3.localEjbReceiver.value"
+        ],
+        "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+    }
+}
+2017-04-27 17:56:23,682 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]
+}
+2017-04-27 17:56:23,703 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 17:56:23,707 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+WFLYCTL0186:   Services which failed to start:      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use /127.0.0.1:9990
+      service jboss.undertow.listener.https: org.jboss.msc.service.StartException in service jboss.undertow.listener.https: Address already in use /127.0.0.1:8443
+      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Address already in use /127.0.0.1:8080
+
+2017-04-27 17:56:23,838 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0063: Http management interface is not enabled
+2017-04-27 17:56:23,838 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2017-04-27 17:56:23,838 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 4313ms - Started 315 of 576 services (10 services failed or missing dependencies, 393 services are lazy, passive or on-demand)
+2017-04-27 17:56:23,869 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 8ms
+2017-04-27 17:56:23,921 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 17:56:23,922 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 17:56:23,922 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: java.net.BindException: Address already in use /127.0.0.1:9990
+      service jboss.undertow.listener.https: org.jboss.msc.service.StartException in service jboss.undertow.listener.https: Address already in use /127.0.0.1:8443
+      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Address already in use /127.0.0.1:8080
+
+2017-04-27 17:56:28,743 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 17:58:08,460 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-04-27 17:58:08,480 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 17:58:08,502 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-04-27 17:58:08,507 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-04-27 17:58:08,510 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-04-27 17:58:08,524 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 53ms
+2017-04-27 17:58:09,891 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-04-27 17:58:10,098 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-04-27 17:58:10,178 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-04-27 17:58:10,179 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib64/openjdk-8/jre/lib/endorsed
+	java.ext.dirs = /usr/lib64/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib64/openjdk-8/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_121-solus-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121-solus
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final
+	jboss.host.name = localhost
+	jboss.modules.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = localhost
+	jboss.qualified.host.name = localhost
+	jboss.server.base.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = localhost
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.9.24-22.lts
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib64/openjdk-8/jre/lib/resources.jar:/usr/lib64/openjdk-8/jre/lib/rt.jar:/usr/lib64/openjdk-8/jre/lib/sunrsasign.jar:/usr/lib64/openjdk-8/jre/lib/jsse.jar:/usr/lib64/openjdk-8/jre/lib/jce.jar:/usr/lib64/openjdk-8/jre/lib/charsets.jar:/usr/lib64/openjdk-8/jre/lib/jfr.jar:/usr/lib64/openjdk-8/jre/classes
+	sun.boot.library.path = /usr/lib64/openjdk-8/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/bin
+	user.home = /home/arcmm
+	user.language = en
+	user.name = arcmm
+	user.timezone = Europe/Lisbon
+2017-04-27 17:58:10,180 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-04-27 17:58:11,461 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment Dashboard-1.0.war
+2017-04-27 17:58:11,463 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 17:58:11,485 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 25) WFLYCTL0013: Operation ("add") failed - address: ([("deployment" => "Dashboard-1.0.war")]) - failure description: "WFLYCTL0212: Duplicate resource [(\"deployment\" => \"Dashboard-1.0.war\")]"
+2017-04-27 17:58:11,527 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) "WFLYCTL0193: Failed executing subsystem deployment-scanner boot operations"
+2017-04-27 17:58:11,529 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("parallel-subsystem-boot") failed - address: ([]) - failure description: "\"WFLYCTL0193: Failed executing subsystem deployment-scanner boot operations\""
+2017-04-27 17:58:11,533 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2017-04-27 17:58:11,584 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 43ms
+2017-04-27 18:07:45,204 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-04-27 18:07:45,434 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-04-27 18:07:45,521 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-04-27 18:07:45,523 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,soluslaptop
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib64/openjdk-8/jre/lib/endorsed
+	java.ext.dirs = /usr/lib64/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib64/openjdk-8/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib64/openjdk-8/jre/lib/amd64:/usr/lib64/openjdk-8/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_121-solus-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121-solus
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final
+	jboss.host.name = localhost
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = localhost
+	jboss.qualified.host.name = localhost
+	jboss.server.base.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = localhost
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.9.24-22.lts
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib64/openjdk-8/jre/lib/resources.jar:/usr/lib64/openjdk-8/jre/lib/rt.jar:/usr/lib64/openjdk-8/jre/lib/sunrsasign.jar:/usr/lib64/openjdk-8/jre/lib/jsse.jar:/usr/lib64/openjdk-8/jre/lib/jce.jar:/usr/lib64/openjdk-8/jre/lib/charsets.jar:/usr/lib64/openjdk-8/jre/lib/jfr.jar:/usr/lib64/openjdk-8/jre/classes
+	sun.boot.library.path = /usr/lib64/openjdk-8/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/bin
+	user.home = /home/arcmm
+	user.language = en
+	user.name = arcmm
+	user.timezone = Europe/Lisbon
+2017-04-27 18:07:45,524 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,soluslaptop -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-04-27 18:07:47,006 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment Dashboard-1.0.war
+2017-04-27 18:07:47,022 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:07:47,095 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-27 18:07:47,121 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.4.0.Final
+2017-04-27 18:07:47,154 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.4.0.Final
+2017-04-27 18:07:47,254 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-27 18:07:47,254 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-04-27 18:07:47,264 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-27 18:07:47,266 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-27 18:07:47,263 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-27 18:07:47,276 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-27 18:07:47,314 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-04-27 18:07:47,355 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-27 18:07:47,387 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-27 18:07:47,390 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-04-27 18:07:47,669 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.21.Final
+2017-04-27 18:07:47,715 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-27 18:07:47,718 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-27 18:07:47,817 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-04-27 18:07:47,884 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2017-04-27 18:07:47,923 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-27 18:07:48,073 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-27 18:07:48,085 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2017-04-27 18:07:48,091 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2017-04-27 18:07:48,139 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-04-27 18:07:48,140 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-04-27 18:07:48,275 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-27 18:07:48,568 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 18:07:48,632 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2017-04-27 18:07:49,030 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-04-27 18:07:49,095 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/deployments
+2017-04-27 18:07:49,127 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:07:49,247 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/journal,bindingsDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/bindings,largeMessagesDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/largemessages,pagingDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/paging)
+2017-04-27 18:07:49,356 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221012: Using AIO Journal
+2017-04-27 18:07:49,442 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-04-27 18:07:49,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-04-27 18:07:49,527 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,529 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 73) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,530 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,531 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,532 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,534 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:07:49,968 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-04-27 18:07:49,982 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-27 18:07:49,989 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2017-04-27 18:07:50,002 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-27 18:07:50,004 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2017-04-27 18:07:50,525 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 18:07:50,526 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 18:07:50,526 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 18:07:50,526 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 18:07:50,618 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-27 18:07:50,621 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=dcda0024-25a7-11e7-a1e4-bdff859782b1] 
+2017-04-27 18:07:50,722 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 73) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-27 18:07:50,752 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 72) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-27 18:07:50,767 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-27 18:07:50,769 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-27 18:07:50,929 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-5) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-27 18:07:51,027 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-5) Resource adaptor started
+2017-04-27 18:07:51,027 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-5) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-27 18:07:51,029 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-27 18:07:51,030 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-27 18:07:51,459 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment Dashboard-1.0.war
+2017-04-27 18:07:51,560 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.4.Final
+2017-04-27 18:07:52,328 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.3.5 (Final)
+2017-04-27 18:07:52,519 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:07:54,091 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:07:54,126 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 65) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:07:55,205 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 65) Running on PrimeFaces 6.0
+2017-04-27 18:07:55,231 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:07:55,292 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:07:55,462 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-27 18:07:55,462 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-27 18:07:55,463 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 10832ms - Started 759 of 1006 services (419 services are lazy, passive or on-demand)
+2017-04-27 18:07:56,093 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:08:00,398 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 65) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:08:00,512 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 132ms
+2017-04-27 18:08:00,514 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:08:01,340 WARN  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:08:01,359 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:08:01,388 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 5) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:08:01,421 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:08:02,072 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 5) Running on PrimeFaces 6.0
+2017-04-27 18:08:02,073 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 5) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:08:02,125 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "Dashboard-1.0.war" with deployment "Dashboard-1.0.war"
+2017-04-27 18:08:03,429 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:08:03,598 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:10:40,522 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:10:40,597 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 77ms
+2017-04-27 18:10:40,608 WARN  [org.jboss.as.controller] (management-handler-thread - 5) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 18:10:40,610 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:10:42,283 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:10:42,287 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:10:43,186 WARN  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:10:43,196 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:10:43,235 INFO  [org.apache.activemq.artemis.ra] (default-threads - 3) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:10:43,242 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 98) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:10:43,905 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 98) Running on PrimeFaces 6.0
+2017-04-27 18:10:43,907 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:10:43,927 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:10:45,238 INFO  [org.apache.activemq.artemis.ra] (default-threads - 3) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:10:45,449 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-21) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:12:22,390 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:12:22,475 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 87ms
+2017-04-27 18:12:22,497 WARN  [org.jboss.as.controller] (management-handler-thread - 9) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 18:12:22,505 INFO  [org.jboss.as.server] (management-handler-thread - 9) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:12:24,012 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:12:24,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:12:24,841 WARN  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:12:24,850 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:12:24,877 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 116) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:12:24,887 INFO  [org.apache.activemq.artemis.ra] (default-threads - 4) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:12:25,275 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 116) Running on PrimeFaces 6.0
+2017-04-27 18:12:25,275 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 116) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:12:25,287 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:12:26,548 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-63) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:12:26,887 INFO  [org.apache.activemq.artemis.ra] (default-threads - 4) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:19:11,148 INFO  [org.jboss.as.server] (management-handler-thread - 13) WFLYSRV0236: Suspending server with no timeout.
+2017-04-27 18:19:11,150 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 13) WFLYCTL0190: Step handler org.jboss.as.server.operations.ServerShutdownHandler$1@31a18944 for operation {"operation" => "shutdown","operation-headers" => {"caller-type" => "user","access-mechanism" => "NATIVE"},"address" => undefined} at address [] failed handling operation rollback -- java.lang.NullPointerException: java.lang.NullPointerException
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.teardown(ActiveMQActivation.java:388)
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.stop(ActiveMQActivation.java:293)
+	at org.apache.activemq.artemis.ra.ActiveMQResourceAdapter.endpointDeactivation(ActiveMQResourceAdapter.java:195)
+	at org.jboss.jca.core.rar.EndpointImpl.deactivate(EndpointImpl.java:255)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.deactivate(MessageDrivenComponent.java:278)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.access$100(MessageDrivenComponent.java:63)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent$1.preSuspend(MessageDrivenComponent.java:92)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:76)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:146)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1384)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1366)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1328)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1301)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$300(AbstractOperationContext.java:1185)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:767)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:753)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:680)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:370)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1329)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:400)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:222)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:208)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$300(ModelControllerClientOperationHandler.java:130)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:152)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:148)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:149)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:148)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$ManagementRequestContextImpl$1.doExecute(AbstractMessageHandler.java:363)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:472)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2017-04-27 18:19:15,800 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 118) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:19:15,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 88ms
+2017-04-27 18:19:15,906 WARN  [org.jboss.as.controller] (management-handler-thread - 15) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 18:19:15,907 INFO  [org.jboss.as.server] (management-handler-thread - 15) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:19:20,558 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:19:50,565 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:19:51,120 WARN  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:19:51,128 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:19:51,164 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 139) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:19:51,175 INFO  [org.apache.activemq.artemis.ra] (default-threads - 5) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:19:51,504 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 139) Running on PrimeFaces 6.0
+2017-04-27 18:19:51,504 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:19:51,520 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:19:52,601 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-3) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:19:53,175 INFO  [org.apache.activemq.artemis.ra] (default-threads - 5) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:23:15,416 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0236: Suspending server with no timeout.
+2017-04-27 18:23:15,417 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 16) WFLYCTL0190: Step handler org.jboss.as.server.operations.ServerShutdownHandler$1@4ce14435 for operation {"operation" => "shutdown","operation-headers" => {"caller-type" => "user","access-mechanism" => "NATIVE"},"address" => undefined} at address [] failed handling operation rollback -- java.lang.NullPointerException: java.lang.NullPointerException
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.teardown(ActiveMQActivation.java:388)
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.stop(ActiveMQActivation.java:293)
+	at org.apache.activemq.artemis.ra.ActiveMQResourceAdapter.endpointDeactivation(ActiveMQResourceAdapter.java:195)
+	at org.jboss.jca.core.rar.EndpointImpl.deactivate(EndpointImpl.java:255)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.deactivate(MessageDrivenComponent.java:278)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.access$100(MessageDrivenComponent.java:63)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent$1.preSuspend(MessageDrivenComponent.java:92)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:76)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:146)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1384)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1366)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1328)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1301)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$300(AbstractOperationContext.java:1185)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:767)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:753)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:680)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:370)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1329)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:400)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:222)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:208)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$300(ModelControllerClientOperationHandler.java:130)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:152)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:148)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:149)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:148)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$ManagementRequestContextImpl$1.doExecute(AbstractMessageHandler.java:363)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:472)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2017-04-27 18:23:56,970 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:23:57,023 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 55ms
+2017-04-27 18:23:57,033 WARN  [org.jboss.as.controller] (management-handler-thread - 16) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 18:23:57,034 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:24:01,606 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:24:01,608 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:24:02,113 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:24:02,120 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:24:02,142 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 152) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:24:02,142 INFO  [org.apache.activemq.artemis.ra] (default-threads - 6) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:24:02,410 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 152) Running on PrimeFaces 6.0
+2017-04-27 18:24:02,411 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 152) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:24:02,417 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:24:03,781 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-29) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:24:04,146 INFO  [org.apache.activemq.artemis.ra] (default-threads - 6) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:24:05,634 INFO  [org.jboss.as.server] (management-handler-thread - 16) WFLYSRV0236: Suspending server with no timeout.
+2017-04-27 18:24:05,635 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 16) WFLYCTL0190: Step handler org.jboss.as.server.operations.ServerShutdownHandler$1@495b36cc for operation {"operation" => "shutdown","operation-headers" => {"caller-type" => "user","access-mechanism" => "NATIVE"},"address" => undefined} at address [] failed handling operation rollback -- java.lang.NullPointerException: java.lang.NullPointerException
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.teardown(ActiveMQActivation.java:388)
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.stop(ActiveMQActivation.java:293)
+	at org.apache.activemq.artemis.ra.ActiveMQResourceAdapter.endpointDeactivation(ActiveMQResourceAdapter.java:195)
+	at org.jboss.jca.core.rar.EndpointImpl.deactivate(EndpointImpl.java:255)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.deactivate(MessageDrivenComponent.java:278)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.access$100(MessageDrivenComponent.java:63)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent$1.preSuspend(MessageDrivenComponent.java:92)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:76)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:146)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1384)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1366)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1328)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1301)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$300(AbstractOperationContext.java:1185)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:767)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:753)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:680)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:370)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1329)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:400)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:222)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:208)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$300(ModelControllerClientOperationHandler.java:130)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:152)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:148)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:149)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:148)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$ManagementRequestContextImpl$1.doExecute(AbstractMessageHandler.java:363)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:472)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2017-04-27 18:24:47,622 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-04-27 18:24:47,822 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-04-27 18:24:47,909 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-04-27 18:24:47,911 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	http.nonProxyHosts = localhost,127.0.0.1,soluslaptop
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib64/openjdk-8/jre/lib/endorsed
+	java.ext.dirs = /usr/lib64/openjdk-8/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib64/openjdk-8/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/lib64/openjdk-8/jre/lib/amd64:/usr/lib64/openjdk-8/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_121-solus-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_121-solus
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.121-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final
+	jboss.host.name = localhost
+	jboss.http.port = 8080
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = localhost
+	jboss.qualified.host.name = localhost
+	jboss.server.base.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = localhost
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.9.24-22.lts
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib64/openjdk-8/jre/lib/resources.jar:/usr/lib64/openjdk-8/jre/lib/rt.jar:/usr/lib64/openjdk-8/jre/lib/sunrsasign.jar:/usr/lib64/openjdk-8/jre/lib/jsse.jar:/usr/lib64/openjdk-8/jre/lib/jce.jar:/usr/lib64/openjdk-8/jre/lib/charsets.jar:/usr/lib64/openjdk-8/jre/lib/jfr.jar:/usr/lib64/openjdk-8/jre/classes
+	sun.boot.library.path = /usr/lib64/openjdk-8/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/bin
+	user.home = /home/arcmm
+	user.language = en
+	user.name = arcmm
+	user.timezone = Europe/Lisbon
+2017-04-27 18:24:47,911 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,soluslaptop -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.http.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-04-27 18:24:49,324 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:24:49,385 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-04-27 18:24:49,404 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2017-04-27 18:24:49,413 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2017-04-27 18:24:49,461 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.21.Final
+2017-04-27 18:24:49,514 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-04-27 18:24:49,535 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2017-04-27 18:24:49,549 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2017-04-27 18:24:49,562 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-04-27 18:24:49,626 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2017-04-27 18:24:49,917 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-04-27 18:24:49,938 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-04-27 18:24:49,954 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-04-27 18:24:49,966 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2017-04-27 18:24:50,003 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-04-27 18:24:50,014 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2017-04-27 18:24:50,031 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-04-27 18:24:50,062 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-04-27 18:24:50,208 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2017-04-27 18:24:50,212 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-04-27 18:24:50,367 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2017-04-27 18:24:50,385 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2017-04-27 18:24:50,413 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2017-04-27 18:24:50,415 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2017-04-27 18:24:50,426 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path '/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-04-27 18:24:50,599 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-04-27 18:24:50,837 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 18:24:50,895 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-3) WFLYIIOP0009: CORBA ORB Service started
+2017-04-27 18:24:51,088 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-04-27 18:24:51,128 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:24:51,171 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/deployments
+2017-04-27 18:24:51,304 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/journal,bindingsDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/bindings,largeMessagesDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/largemessages,pagingDirectory=/home/arcmm/Desktop/Universidade/es-2016-2017-g105/wildfly-10.1.0.Final/standalone/data/activemq/paging)
+2017-04-27 18:24:51,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-04-27 18:24:51,488 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221012: Using AIO Journal
+2017-04-27 18:24:51,538 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-04-27 18:24:51,904 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:51,907 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:51,907 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 67) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:51,911 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:51,912 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:51,919 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-04-27 18:24:52,072 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-04-27 18:24:52,128 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2017-04-27 18:24:52,136 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2017-04-27 18:24:52,149 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2017-04-27 18:24:52,155 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2017-04-27 18:24:52,569 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 18:24:52,572 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 18:24:52,573 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2017-04-27 18:24:52,578 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2017-04-27 18:24:52,678 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2017-04-27 18:24:52,678 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=dcda0024-25a7-11e7-a1e4-bdff859782b1] 
+2017-04-27 18:24:52,755 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 71) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2017-04-27 18:24:52,783 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 66) AMQ221003: trying to deploy queue jms.queue.DLQ
+2017-04-27 18:24:52,812 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 69) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2017-04-27 18:24:52,815 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2017-04-27 18:24:52,904 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2017-04-27 18:24:53,040 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) Resource adaptor started
+2017-04-27 18:24:53,041 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2017-04-27 18:24:53,047 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2017-04-27 18:24:53,047 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-27 18:24:53,785 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:24:53,897 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:24:54,186 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:24:54,287 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 73) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:24:55,373 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 73) Running on PrimeFaces 6.0
+2017-04-27 18:24:55,390 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:24:55,448 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:24:55,594 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-04-27 18:24:55,595 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-04-27 18:24:55,595 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 8337ms - Started 677 of 926 services (419 services are lazy, passive or on-demand)
+2017-04-27 18:24:56,153 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:24:56,188 INFO  [org.apache.activemq.artemis.ra] (default-threads - 1) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:24:56,228 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 84ms
+2017-04-27 18:24:56,351 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-04-27 18:24:56,352 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:25:00,489 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found Dashboard-1.0.war in deployment directory. To trigger deployment create a file called Dashboard-1.0.war.dodeploy
+2017-04-27 18:25:00,500 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "Dashboard-1.0.war" (runtime-name: "Dashboard-1.0.war")
+2017-04-27 18:25:01,331 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment deployment "Dashboard-1.0.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-04-27 18:25:01,349 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0042: Started message driven bean 'SensorMessageBean' with 'activemq-ra.rar' resource adapter
+2017-04-27 18:25:01,384 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 30) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/Dashboard-1.0'
+2017-04-27 18:25:01,432 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151000: awaiting topic/queue creation jboss/exported/jms/queue/SensorMessageBeanQueue
+2017-04-27 18:25:02,179 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 30) Running on PrimeFaces 6.0
+2017-04-27 18:25:02,180 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 30) WFLYUT0021: Registered web context: /Dashboard-1.0
+2017-04-27 18:25:02,209 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "Dashboard-1.0.war" (runtime-name : "Dashboard-1.0.war")
+2017-04-27 18:25:03,436 INFO  [org.apache.activemq.artemis.ra] (default-threads - 2) AMQ151001: Attempting to reconnect org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec(ra=org.apache.activemq.artemis.ra.ActiveMQResourceAdapter@78712571 destination=jboss/exported/jms/queue/SensorMessageBeanQueue destinationType=javax.jms.Queue ack=Auto-acknowledge durable=false clientID=null user=null maxSession=15)
+2017-04-27 18:25:04,103 INFO  [org.hibernate.validator.internal.util.Version] (default task-1) HV000001: Hibernate Validator 5.2.4.Final
+2017-04-27 18:25:04,542 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Unable to find or serve resource, images/fallback_moduleHeader.png, from library, primefaces-delta.
+2017-04-27 18:28:30,102 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0236: Suspending server with no timeout.
+2017-04-27 18:28:30,104 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 5) WFLYCTL0190: Step handler org.jboss.as.server.operations.ServerShutdownHandler$1@5937e38c for operation {"operation" => "shutdown","operation-headers" => {"caller-type" => "user","access-mechanism" => "NATIVE"},"address" => undefined} at address [] failed handling operation rollback -- java.lang.NullPointerException: java.lang.NullPointerException
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.teardown(ActiveMQActivation.java:388)
+	at org.apache.activemq.artemis.ra.inflow.ActiveMQActivation.stop(ActiveMQActivation.java:293)
+	at org.apache.activemq.artemis.ra.ActiveMQResourceAdapter.endpointDeactivation(ActiveMQResourceAdapter.java:195)
+	at org.jboss.jca.core.rar.EndpointImpl.deactivate(EndpointImpl.java:255)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.deactivate(MessageDrivenComponent.java:278)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent.access$100(MessageDrivenComponent.java:63)
+	at org.jboss.as.ejb3.component.messagedriven.MessageDrivenComponent$1.preSuspend(MessageDrivenComponent.java:92)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:76)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:146)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1384)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1366)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1328)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1301)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$300(AbstractOperationContext.java:1185)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:767)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:753)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:680)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:370)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1329)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:400)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:222)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:208)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$300(ModelControllerClientOperationHandler.java:130)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:152)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:148)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:149)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:148)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$ManagementRequestContextImpl$1.doExecute(AbstractMessageHandler.java:363)
+	at org.jboss.as.protocol.mgmt.AbstractMessageHandler$AsyncTaskRunner.run(AbstractMessageHandler.java:472)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2017-04-27 18:29:31,845 INFO  [org.jboss.as.server] (management-handler-thread - 8) WFLYSRV0236: Suspending server with no timeout.
+2017-04-27 18:29:31,849 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2017-04-27 18:29:31,979 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: /Dashboard-1.0
+2017-04-27 18:29:31,983 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 78) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2017-04-27 18:29:32,043 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-04-27 18:29:32,087 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-04-27 18:29:32,088 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2017-04-27 18:29:32,089 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2017-04-27 18:29:32,105 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment Dashboard-1.0.war (runtime-name: Dashboard-1.0.war) in 213ms
+2017-04-27 18:29:32,107 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-04-27 18:29:32,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-04-27 18:29:32,109 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-04-27 18:29:32,120 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 91) AMQ151003: resource adaptor stopped
+2017-04-27 18:29:32,190 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 91) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [dcda0024-25a7-11e7-a1e4-bdff859782b1] stopped
+2017-04-27 18:29:32,191 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2017-04-27 18:29:32,192 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-04-27 18:29:32,192 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-04-27 18:29:32,215 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 324ms
